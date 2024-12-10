@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo p {
+    color: #ed7f10;
+    font-size: 38px;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.nav-menu {
+    display:flex;
+    list-style: none;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #626262;
+}
+.nav-menu li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+} 
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #ed5210;
+}
+
+.nav-login-cart {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+}
+.nav-login-cart button {
+cursor: pointer;
+border: 1px solid rgb(150, 161, 172);
+font-size: 25px;
+font-weight: 600;
+border-radius: 80px;
+width: 120px;
+height: 58px;
+outline: none;
+background: rgb(177, 146, 19);
+color: white;
+margin:20px;
+
+}
+
+.nav-login-cart button:hover {
+    background: #361f07;
+}
+
+.nav-login-cart button:active {
+    background: #626262;
+    color: #ed5210;
+}
+.nav-cart-counter {
+    color: white;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    margin-top: -35px;
+    margin-left: -55px;
+    display: flex;
+    font-size: 14px;
+    width: 22px;
+    height: 22px;
+    font-weight: 200;
+}

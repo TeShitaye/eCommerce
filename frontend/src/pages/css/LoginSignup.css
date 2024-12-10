@@ -1,0 +1,87 @@
+.loginsignup {
+width: 100%;
+height: 80vh;
+margin-top: 100px;
+background: #fcefce;
+}
+
+.loginsignup-container {
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.loginsignup-container h1 {
+    margin: 20px 0px;
+}
+.loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    margin-top: 30px;
+}
+.loginsignup-fields input {
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid #c9c9c9;
+
+}
+
+.loginsignup-container button {
+    width: 600px;
+    height: 72px;
+   font-size: 26px;
+   font-weight: 500;
+   border: none;
+   margin-top: 30px;
+   cursor: pointer;
+   color: white;
+   background-color: rgb(193, 174, 5);
+
+}
+
+.loginsignup-container button:hover {
+    background-color: rgb(193, 131, 16);
+    
+}
+.loginsignup-container button:active {
+color: blue;
+    
+}
+
+.loginsignup-login {
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.loginsignup-login span{
+    color:blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.loginsignup-agree {
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.loginsignup-agree input {
+    height: 20px;
+    width: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+    margin-top: 5px;
+}
+
